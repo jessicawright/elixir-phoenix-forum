@@ -1479,10 +1479,9 @@ require.register("web/static/js/app.js", function(exports, require, module) {
 "use strict";
 
 require("phoenix_html");
-
 });
 
-require.register("web/static/js/socket.js", function(exports, require, module) {
+;require.register("web/static/js/socket.js", function(exports, require, module) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1553,10 +1552,9 @@ channel.join().receive("ok", function (resp) {
 });
 
 exports.default = socket;
-
 });
 
-require.alias("phoenix/priv/static/phoenix.js", "phoenix");
+;require.alias("phoenix/priv/static/phoenix.js", "phoenix");
 require.alias("phoenix_html/priv/static/phoenix_html.js", "phoenix_html");require.register("___globals___", function(exports, require, module) {
   
 });})();require('___globals___');
